@@ -1,1 +1,38 @@
-The Battle Axes
+<!doctype html>
+
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+
+    <title>The Battle Axes</title>
+    <link href="https://fonts.googleapis.com/css2?family=Black+Han+Sans&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" type="text/css" href="style.css" />
+
+    <script>
+    	function random(low, high) {
+    		return low + Math.round((high - low) * Math.random())
+    	}
+
+    	window.onload = function() {
+    		$("body").css("background-image", "url(images/Battle%20Axes-" + random(1, 20) + ".jpg");
+
+    	}
+
+    </script>
+
+</head>
+<body>
+
+	
+	<div id="title" class="slide-in-blurred-top">
+		<div class="title shadow">Battle Axes</div>
+		<div class="title gradient">Battle Axes</div>
+	</div>
+	<div id="fwf-logo"></div>
+
+
+    <script src="jquery.min.js"></script>
+
+</body>
+</html>
